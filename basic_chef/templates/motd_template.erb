@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+|This is the file containing the ATTRIBUTE and VARIABLES and ERB Values|
+------------------------------------------------------------------------
+The Hostname of this node is      :: <%= node['hostname'] %>
+The IP Address of the node is     :: <%= node['ipaddress'] %>
+The Total Memory in node   is     :: <%= node['memory']['total'] %>
+*************************************************************************
+Below Are the Attributes of the Nodes Added 
+*******************************************
+The Company Name       :: <%= node['company']['name'] %>
+The Company Address    :: <%= node['company']['address'] %>
+The Company Phone NO   :: <%= node['company']['phone'] %>
+The Company Land Line  :: <%= node['company']['landline'] %>
+**************************************************************************
+Variable From the Recipe 
+------------------------
+Variable value is      :: <%= @myvar1 %>
+Variable value is      :: <%= @myvar2 %>
+**************************************************************************

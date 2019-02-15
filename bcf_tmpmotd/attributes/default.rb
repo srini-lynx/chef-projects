@@ -1,0 +1,6 @@
+node.force_override['ipaddress'] = '127.0.0.1'
+node.force_override['hostname'] = 'override'
+node.normal['catch_phrase'] = 'Welcome to normal attribute'
+node.force_default['catch_phrase'] = 'Override the CATCH_PHRASE'
+node.normal['new_attribute'] = 'This is the NEW ATTRIBUTE (normal) which gets in node'
+node.force_default['new_attribute'] = 'This is the NEW ATTRIBUTE which Gets OVERRIDEN'
