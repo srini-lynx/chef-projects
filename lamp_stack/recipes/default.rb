@@ -7,3 +7,4 @@
 
 apt_update 
 
+include_recipe 'lamp_stack::web'
