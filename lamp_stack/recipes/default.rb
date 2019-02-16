@@ -5,6 +5,10 @@
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
 
-apt_update 
+execute 'Update the apt get repository' do
+
+  command "apt-get update"
+
+end
 
 include_recipe 'lamp_stack::web'
