@@ -16,9 +16,8 @@ package 'Install Apache Package' do
 end
 
 
-end
 
-file '/var/www/html/index.html' do
+file node['lamp']['index_path'] do
   content '<h1>Hello World</h1>'
 end
 
@@ -29,4 +28,5 @@ service 'Start and Enable Apache Service' do
     service_name 'httpd'
   when 'ubuntu', 'debian'
     service_name 'apache2'
+  end
 end
