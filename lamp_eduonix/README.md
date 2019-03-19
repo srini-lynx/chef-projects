@@ -1,4 +1,3 @@
 # lamp_eduonix
 
-TODO: Enter the cookbook description here.
-
+Cookbook for LAMP stack
